@@ -159,8 +159,8 @@ body {
 
 .logo-symbol {
 
-    width: 38px;
-    height: 38px;
+    width: 48px;
+    height: 48px;
 
     border-radius: 50%;
 
@@ -1145,60 +1145,6 @@ body {
    ADD PROJECT
 ========================================= */
 
-.add-project {
-
-    min-height:
-        38px;
-
-    width:
-        100%;
-
-    border:
-        1px dashed
-        #444444;
-
-    background:
-        rgba(255, 255, 255, 0.02);
-
-    border-radius:
-        6px;
-
-    text-align:
-        left;
-
-    padding:
-        0 12px;
-
-    color:
-        #777777;
-
-    font-size:
-        11px;
-
-    transition:
-        0.2s ease;
-}
-
-.add-project span {
-
-    font-size:
-        16px;
-
-    margin-right:
-        7px;
-}
-
-.add-project:hover {
-
-    border-color:
-        var(--accent);
-
-    color:
-        var(--accent);
-
-    background:
-        rgba(30, 215, 96, 0.05);
-}
 
 
 /* =========================================
@@ -1287,4 +1233,11 @@ body {
         flex:
             1;
     }
+}
+
+
+.logo{
+    width: 103%;
+    height: 103%;
+    border-radius: 50%;
 }
